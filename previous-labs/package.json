@@ -1,0 +1,36 @@
+{
+  "name": "lab2-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development",
+    "watch": "webpack --watch --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "autoprefixer": "^10.6.1",
+    "copy-webpack-plugin": "^14.0.0",
+    "css-loader": "^7.1.5",
+    "html-webpack-plugin": "^5.6.8",
+    "mini-css-extract-plugin": "^2.10.2",
+    "postcss": "^8.5.29",
+    "postcss-loader": "^8.2.1",
+    "sass": "^1.105.1",
+    "sass-loader": "^17.0.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.3.1",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "jquery": "^4.0.0"
+  }
+}

@@ -1,0 +1,22 @@
+// Цвета из ЛР1
+$primary: #2c5083;
+$secondary: #457b9d;
+$info: #a8dadc;
+$danger: #e63946;
+$light: #f1faee;
+$dark: #1d3557;
+$success: #27ae60;
+$warning: #f39c12;
+
+$body-bg: #457b9d;
+$body-color: #1d3557;
+
+
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px, xxxl: 1800px );
+
+$container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1320px, xxxl: 1720px );
+
+// Скругления как в ЛР1
+$border-radius: 6px;
+$border-radius-sm: 4px;
+$border-radius-lg: 8px;
